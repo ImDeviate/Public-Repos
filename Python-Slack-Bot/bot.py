@@ -21,7 +21,7 @@ def joke(ack, say):
 @app.command('/source')
 def source(ack, respond):
     ack()
-    respond(f'Here is the source code for the bot! github.com/ImDeviate/Python-Slack-Bot')
+    respond(f'Here is the source code for the bot! github.com/ImDeviate/Public-Repos/tree/master/Python-Slack-Bot')
 
 if __name__ == '__main__':
     handler = SocketModeHandler(app, SLACK_APP_TOKEN)
